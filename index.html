@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChitChat</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="logo.jpg">
+    </nav>
+    <div class="container">
+        <div class="message left">anwesha: hello</div>
+        <div class="message right">guddi: hi</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-content">
+            <input type="text" name="msginp" id="msginp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="js/client.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right bottom, rgb(1, 66, 10), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+
+nav {
+    background-color: rgb(0, 51, 7);
+}
+
+.container {
+    background-color: rgb(11, 24, 20);
+    max-width: 95%;
+    margin: auto;
+    height: 80vh;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: aquamarine;
+    width: 25%;
+    padding: 10px;
+    margin: 17px 21px;
+    border: 2px solid grey;
+    border-radius: 10%;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-content {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 98%;
+}
+
+#msginp {
+    width: 90%;
+    border: 2px solid grey;
+    height: 32px;
+    border-radius: 6%;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 6%;
+    height: 32px;
+    width: 50px;
+}
